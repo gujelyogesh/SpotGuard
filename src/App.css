@@ -1,38 +1,160 @@
-.App {
+
+.img-flui{
+  background-image:url("../public/images/pexels-tima-miroshnichenko-scaled.jpg");
+  background-color: var( --e-global-color-rishi1 );
+  background-size: 100% auto;
+  height: 590px;
+  width: 100%;
+  object-fit: cover;
+  /* opacity: 0.81; */
+    
+}
+.text-Cleaning{
+  color:#FFFFFF;
+  font-family: "Agdasima", Sans-serif;
+  text-shadow: 0px 1px 6px rgba(0, 0, 0, 0.64);
+}
+
+p.text-white{
+  font-family: "Agdasima", Sans-serif;
+  text-shadow: 0px 1px 6px rgba(0, 0, 0, 0.64);
+}
+
+a.hover:hover{
+  color: black;
+}
+
+div#basic-navbar-nav {
+  visibility: visible;
+}
+
+
+
+
+
+
+
+
+.heading {
+  color: #fff;
+  font-family: "Agdasima", Sans-serif;
+  /* text-shadow: 0px 1px 6px rgba(0, 0, 0, 0.64); */
+}
+
+/* .left-10 {
+  left: 2.8rem;
+}
+
+.top-20 {
+  top: 7rem;
+} */
+
+.text-white {
+  color: #FFFFFF;
+  /* font-family: "Agdasima", Sans-serif; */
+  /* text-shadow: 0px 1px 4px rgba(0, 0, 0, 0.75);
+  margin-bottom: 20px; */
+
+}
+
+span.text-white {
+  /* margin-right: 5px;
+  margin-left: 5px;
+  font-family: sans-serif;
+  font-size: larger; */
+}
+
+button.btn.warning {
+  height: 60px;
+  text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+  background-color: #FAD02C;
+  transition-duration: 0.5s; 
+  border-style: groove;
+ 
+}
+
+button.btn.warning:hover {
+  color: #FFFFFF;
+  background-color: #057783F5;
+  border-color: #1A85B3;
+  transform: scale(1.1); 
+  transition: transform 0.3s ease-in-out; 
+ 
+}
+.fs{
+   font-size: 19px;
+    
+}
+.h{
+  fill: #FAD02C;
+}
+
+
+/* .gantas {
+  border-radius: 50px;
+}
+
+.dis{
+  margin: auto ;
+  width: 90%;
+}
+.d {
+  margin: auto ;
+  width: 85%;
+ 
+  
+} */
+/* 
+.link {
+  color: #FAD02C;
+  text-decoration: none;
+}
+.text-color{
+  fill: #EEC526; 
+  color: #EEC526; 
+   border-color: #EEC526;
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.pl-4.ml-4.fs-2{
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-weight: bold;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+h2.pt-5.mt-5.fs-1.pb-3{
+  font-weight: bold;
+}
+
+.text-whit{
+  color: #fff;
+}
+img.image{
+  border-radius: 30px;
+  box-shadow: 0px 0px 6px 3px rgba(184, 180, 180, 0.671);
+} */
+
+/* .com{
+  margin: auto;
+  width: 90%;
+
+}
+.section{
+  background-color: var( --e-global-color-rishi1 );
+  border: #fff;
+  
+}
+.add{
+  margin-top: 80px;
+} */
+
+
+
+/* 
+.carousel-item.active {
+  width: 900px;
+} */
+
+/* @media (min-width: 500) {
+  .img {
+    height: 30vh;
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+} */
