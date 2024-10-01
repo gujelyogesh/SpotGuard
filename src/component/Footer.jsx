@@ -7,7 +7,7 @@ import { Link } from "react-router-dom";
 const Footer = () =>{
 return(
     <>
-        <div className="background-color">
+        <div className="background-color py-3">
         <div className="container">
                     <div className="d-flex align-items-center pb-2 ">
                     <span className="pt-1"><MdEmail className="text-white mr-1" /></span><p className="text-white pt-1">info@spotguard.ae</p>
