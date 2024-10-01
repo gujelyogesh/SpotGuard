@@ -1,18 +1,24 @@
 
-.img-flui{
-  background-image:url("../public/images/pexels-tima-miroshnichenko-scaled.jpg");
+.w{
+ /* background-image:url("../public/images/pexels-tima-miroshnichenko.jpg");  */
   background-color: var( --e-global-color-rishi1 );
   background-size: 100% auto;
-  height: 590px;
-  width: 100%;
-  object-fit: cover;
+}
+.img-flui {
+   width: 100%;
+   height: 435px;
+   object-fit: cover;
+}
+
   /* opacity: 0.81; */
     
-}
+
 .text-Cleaning{
   color:#FFFFFF;
   font-family: "Agdasima", Sans-serif;
-  text-shadow: 0px 1px 6px rgba(0, 0, 0, 0.64);
+  text-shadow:0px 1px 6px rgba(0, 0, 0, 0.64);
+  margin-top: 35px;
+ 
 }
 
 p.text-white{
@@ -24,22 +30,34 @@ a.hover:hover{
   color: black;
 }
 
-div#basic-navbar-nav {
+#basic-navbar-nav {
   visibility: visible;
 }
+.icon:hover{
+  color: #FAD02C;
+}
+.background-color{
+  background-color: #343330;
+  
+}
+.backgroundcolor{
+background-color: #112333;
+}
+.copyright{
+  color: rgba(255, 255, 255, 0.6);
+}
 
+.counter{
+  background-color: #13283B;
+ 
+ 
+}
 
-
-
-
-
-
-
-.heading {
+/* .heading {
   color: #fff;
   font-family: "Agdasima", Sans-serif;
-  /* text-shadow: 0px 1px 6px rgba(0, 0, 0, 0.64); */
-}
+  /* text-shadow: 0px 1px 6px rgba(0, 0, 0, 0.64); 
+} */
 
 /* .left-10 {
   left: 2.8rem;
@@ -49,20 +67,15 @@ div#basic-navbar-nav {
   top: 7rem;
 } */
 
-.text-white {
+/* .text-white {
   color: #FFFFFF;
   /* font-family: "Agdasima", Sans-serif; */
   /* text-shadow: 0px 1px 4px rgba(0, 0, 0, 0.75);
-  margin-bottom: 20px; */
+  margin-bottom: 20px; 
 
-}
+} */
 
-span.text-white {
-  /* margin-right: 5px;
-  margin-left: 5px;
-  font-family: sans-serif;
-  font-size: larger; */
-}
+
 
 button.btn.warning {
   height: 60px;
@@ -81,13 +94,13 @@ button.btn.warning:hover {
   transition: transform 0.3s ease-in-out; 
  
 }
-.fs{
+/* .fs{
    font-size: 19px;
     
 }
 .h{
   fill: #FAD02C;
-}
+} */
 
 
 /* .gantas {
