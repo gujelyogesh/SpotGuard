@@ -2,7 +2,7 @@ import React from "react";
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import NavDropdown from 'react-bootstrap/NavDropdown';
+import { NavLink } from "react-router-dom";
 const Header = ()=>{
     return(
         <>
@@ -72,29 +72,23 @@ const Header = ()=>{
     </div>
   </div>
 </nav> */}
-
-
-
-     <Navbar expand="lg" className="bg-body-tertiary pd-5">
+     <Navbar expand="lg" className="bg-body-tertiary pd-5 py-3">
       <Container>
-        <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
+        <NavLink to ="/" className="fw-bold text-dark">Spot guard</NavLink>
         <Navbar.Toggle aria-controls="basic-navbar-nav"/>
         <Navbar.Collapse id="basic-navbar-nav" >
-          <Nav className="me-auto">
-            <Nav.Link href="#home">Home</Nav.Link>
-            <Nav.Link href="#link">Link</Nav.Link>
-            <NavDropdown title="Dropdown" id="basic-nav-dropdown">
-              <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.2">
-                Another action
-              </NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
-              <NavDropdown.Divider />
-              <NavDropdown.Item href="#action/3.4">
-                Separated link
-              </NavDropdown.Item>
-            </NavDropdown>
-          </Nav>
+          <Nav className="text-center w-100">
+            <NavLink to="residential" className="px-4 fw-bold text-dark">Residential</NavLink>
+            <NavLink to="commercial" className="px-4 fw-bold text-dark">Commercial</NavLink>
+            <NavLink to="ourservice" className="px-4 fw-bold text-dark">Our Service Areas</NavLink>
+            
+            
+            </Nav>
+            <div className="text-center">
+            <Navbar.Brand to ="" className="mr-4 text-center">Call (055) 299-7078</Navbar.Brand>
+            </div>
+           
+             
         </Navbar.Collapse>
       </Container>
     </Navbar> 

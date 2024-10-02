@@ -52,6 +52,14 @@ background-color: #112333;
  
  
 }
+.navbar-nav {
+  display: flex;
+  flex-direction: column;
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+  justify-content: center;
+}
 
 /* .heading {
   color: #fff;
