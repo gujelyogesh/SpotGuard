@@ -11,13 +11,13 @@ import OurService from './component/OurService';
 function App() {
   return (
     <>
-    <Routes>
-<Route path ="/" element ={<Home/>} />
-<Route path ="residential" element ={<Residential />} />
-<Route path ="commercial" element ={<Commercial/>} />
-<Route path ="ourservice" element = {<OurService />} />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/residential" element={<Residential />} />
+        <Route path="/commercial" element={<Commercial />} />
+        <Route path="/ourservice" element={<OurService />} />
 
-    </Routes>
+      </Routes>
     </>
   );
 }

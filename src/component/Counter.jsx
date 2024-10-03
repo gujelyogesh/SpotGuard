@@ -37,7 +37,7 @@ const Counter = () => {
                         </div>
                         <div className="col-md-4">
                         <h3 className="text-white display-2 text-center pb-2 ">
-                            <CountUp className="text-warning text-center fw-bold " start={0} end={100}></CountUp>
+                            <CountUp className="text-warning text-center fw-bold font-italic " start={0} end={100}></CountUp>
                             <span className="text-warning display-2 fw-bold  ">+</span></h3>
                         </div>
                         <div className="col-md-4">
@@ -58,12 +58,12 @@ const Counter = () => {
                     <div className="row">
                         <div className="col-md-6">
                         <h3 className="text-white text-center display-2 py-2">
-                            <CountUp className="text-warning text-center text-warning fw-bold " start={0} end={30}></CountUp>
+                            <CountUp className="text-warning text-center text-warning fw-bold font-italic " start={0} end={30}></CountUp>
                        <span className="text-warning fw-bold ">+</span></h3>
                         </div>
                         <div className="col-md-6 ">
                         <h3 className="text-white text-right mx-5 px-5 py-2 display-1">
-                        <CountUp className="text-warning text-center fw-bold " start={0} end={5}></CountUp>
+                        <CountUp className="text-warning text-center fw-bold font-italic " start={0} end={5}></CountUp>
                         <span className="text-warning fw-bold ">+</span>
                         </h3>
                         </div>

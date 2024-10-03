@@ -21,7 +21,7 @@ return(
         </div>
         <div className="pb-4 backgroundcolor">
             <div className="container">
-            <h1 className="pt-4 text-center copyright">Copyright © 2024<span className="text-white px-1"><Link to ="/" className="icon">SpotGuard.ae</Link></span></h1>
+            <h1 className="pt-4 text-center copyright">Copyright © 2024<span className="text-white px-1"><Link to ="/" className="icon font-italic">SpotGuard.ae</Link></span></h1>
 
             </div>
         </div>

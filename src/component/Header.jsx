@@ -78,9 +78,9 @@ const Header = ()=>{
         <Navbar.Toggle aria-controls="basic-navbar-nav"/>
         <Navbar.Collapse id="basic-navbar-nav" >
           <Nav className="text-center w-100">
-            <NavLink to="residential" className="px-4 fw-bold text-dark">Residential</NavLink>
-            <NavLink to="commercial" className="px-4 fw-bold text-dark">Commercial</NavLink>
-            <NavLink to="ourservice" className="px-4 fw-bold text-dark">Our Service Areas</NavLink>
+            <NavLink to="/residential" className="px-4 fw-bold text-dark">Residential</NavLink>
+            <NavLink to="/commercial" className="px-4 fw-bold text-dark">Commercial</NavLink>
+            <NavLink to="/ourservice" className="px-4 fw-bold text-dark">Our Service Areas</NavLink>
             
             
             </Nav>
